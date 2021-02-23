@@ -76,16 +76,22 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 
-  var arrayNuevo = [];
+//   var arrayNuevo = [];
 
-  function filtrado(elemento) {
-    if (elemento[0] === "a" || elemento[0] === "A") {
-      arrayNuevo.push(elemento);
-    }
+//   function filtrado(elemento) {
+//     if (elemento[0] === "a" || elemento[0] === "A") {
+//       arrayNuevo.push(elemento);
+//     }
+//   }
+//   array.forEach(filtrado);
+//   return arrayNuevo;
+// }
+
+function filtrados (elemento){
+  if (elemento[0] === "a" ){
+    return elemento
   }
-
-  array.forEach(filtrado);
-  return arrayNuevo;
+} return array.filter(filtrados);
 }
 
 // No modificar nada debajo de esta línea
