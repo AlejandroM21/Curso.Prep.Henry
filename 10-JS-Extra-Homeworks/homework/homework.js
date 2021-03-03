@@ -137,7 +137,7 @@ function buscoInterseccion(arreglo1, arreglo2) {
   var segundoArray = new Set(arreglo2);
   
   intersection = ([...PrimerArray].filter(x => segundoArray.has(x)));
-  return intersection;
+  return intersection
 }
 
 // No modificar nada debajo de esta línea
